@@ -43,3 +43,8 @@ You'd probably like to make your plugin do something useful, right? The first *H
 Alternatively, you can double-click *gnupolpot_template_plugin > application > run* to run it without building.
 
 Open `src` folder in the `plugin` module. There's an example package, plugin and a feature in there. Editing them is the easiest way to get started.
+
+
+## Licensing
+
+This template belongs to public domain. You can use it any way you wish. Additional JARs required to build plugins are licensed separately.
