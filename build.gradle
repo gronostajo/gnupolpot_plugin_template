@@ -1,0 +1,42 @@
+allprojects {
+    apply plugin: 'java'
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+}
+
+subprojects {
+    tasks.withType(JavaCompile) {
+        options.encoding = 'UTF-8'
+    }
+
+    sourceSets {
+        main {
+            java {
+                srcDir 'src'
+            }
+            resources {
+                srcDir 'res'
+            }
+        }
+    }
+
+    tasks.withType(Jar) {
+        destinationDir = file("$rootDir/jars")
+    }
+}
+
+compileJava {
+    enabled = false
+}
+
+compileTestJava {
+    enabled = false
+}
+
+jar {
+    enabled = false
+}
+
+clean {
+    delete 'jars'
+}
