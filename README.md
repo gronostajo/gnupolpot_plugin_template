@@ -23,9 +23,11 @@ Prerequisites:
 
 6. Make sure all projects are selected and click *OK*.
 
-7. Go to [gnupolpot releases](https://github.com/gronostajo/gnupolpot/releases) and download two JARs for the release you wish to use: `gnupolpot.jar` and `api.jar`.
+7. Open Gradle pane in IntelliJ's main window and click the *Refresh* button.
 
-8. Place downloaded JARs in the `libs` directory.
+8. Go to [gnupolpot releases](https://github.com/gronostajo/gnupolpot/releases) and download two JARs for the release you wish to use: `gnupolpot.jar` and `api.jar`.
+
+9. Place downloaded JARs in the `libs` directory.
 
 ... and you're good to go!
 
